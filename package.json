@@ -1,5 +1,5 @@
 {
-  "name": "idealog",
+  "name": "mahmoddev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m7modg97/idealog.git"
+    "url": "git+https://github.com/m7modg97/m7modg97.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/m7modg97/idealog/issues"
+    "url": "https://github.com/m7modg97/m7modg97.github.io/issues"
   },
-  "homepage": "https://github.com/m7modg97/idealog#readme",
+  "homepage": "https://github.com/m7modg97/m7modg97.github.io#readme",
   "devDependencies": {
     "cross-env": "^6.0.3",
     "laravel-mix": "^5.0.0",
