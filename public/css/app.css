@@ -11402,7 +11402,137 @@ video {
 }
 
 body {
-  background-color: #F3F7FA;
+  background-color: #faf7fc;
+}
+
+.bg-green-rect {
+  background: linear-gradient(103.82deg, #78d109 8.47%, rgba(193, 243, 67, 0.78) 62.44%);
+  border-radius: 113px;
+  -webkit-transform: rotate(-53.51deg);
+          transform: rotate(-53.51deg);
+  position: absolute;
+  height: 120%;
+  width: 100%;
+  margin-top: -45%;
+  margin-left: 25%;
+}
+
+.bg-gray-rect {
+  position: absolute;
+  height: 125%;
+  width: 100%;
+  margin-top: -30%;
+  margin-left: 30%;
+  background: #ebf4e2;
+  border-radius: 113px;
+  -webkit-transform: rotate(-75deg);
+          transform: rotate(-75deg);
+}
+
+.office {
+  position: absolute;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 34%;
+  z-index: 10;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+  height: 700;
+  overflow: hidden;
+}
+
+.logo {
+  border-radius: 55.5px;
+  width: 45;
+  height: 45;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+@font-face {
+  font-family: Montserrat;
+
+  src: url("../../public/fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MontserratAlt;
+
+  src: url("../../public/fonts/MontserratAlternates-Regular.otf") format("opentype");
+}
+
+.text-header > span {
+  font-family: "Montserrat";
+  color: #252D54;
+}
+
+.category > div {
+  font-family: "MontserratAlt";
+  color: #ffffff;
+}
+
+.logo_text {
+  display: inline-block;
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 24px;
+  color: #252d54;
+}
+
+.logo_text:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #252d54;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.logo_text:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.btn-hover {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-2 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#fb8406), color-stop(#fcb00c), color-stop(#fcb00c), to(#fb8406));
+  background-image: linear-gradient(to right, #fb8406, #fcb00c, #fcb00c, #fb8406);
 }
 
 @media (min-width: 640px) {

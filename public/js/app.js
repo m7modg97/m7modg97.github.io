@@ -182,6 +182,55 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mah-header",
   mounted: function mounted() {
@@ -818,13 +867,121 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "flex" }, [
-      _c("div", {
-        staticClass:
-          "flex flex-col w-2/5 justify-between bg-blue-grad h-screen select-none shadow-l",
-        staticStyle: { "z-index": "60" }
-      }),
+      _c("div", { staticClass: "absolute w-full z-50" }, [
+        _c("nav", { staticClass: "flex justify-between " }, [
+          _c("div", { staticClass: "flex flex-row mt-8 ml-10" }, [
+            _c("img", {
+              staticClass: "logo",
+              attrs: { src: "public/img/3alam.png", draggable: "false" }
+            }),
+            _vm._v(" "),
+            _c(
+              "span",
+              { staticClass: "self-center ml-3 logo_text select-none" },
+              [_vm._v("MAHMOD.DEV")]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "category flex flex-row  flex-wrap text-xl pt-8 select-none\t"
+            },
+            [
+              _c("div", { staticClass: "pr-10" }, [_vm._v("Article")]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pr-10" }, [_vm._v("Project")]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pr-10" }, [
+                _c("span", [_vm._v("Contact")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pr-10" }, [
+                _vm._v("Language "),
+                _c("span", { staticClass: "fas fa-chevron-down" })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pr-10" }, [
+                _c("span", {
+                  staticClass:
+                    "fas fa-lightbulb pt-1 text-center rounded-full border-2 border-white w-8 h-8"
+                })
+              ])
+            ]
+          )
+        ])
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "w-screen bg-white h-screen" })
+      _c(
+        "div",
+        {
+          staticClass:
+            "flex flex-col w-2/5 justify-between h-screen select-none shadow-l"
+        },
+        [
+          _c("div", { staticClass: "ml-24 mt-56 text-header leading-none" }, [
+            _c("br"),
+            _vm._v(" "),
+            _c("span", { staticClass: "text-2xl" }, [
+              _vm._v("Hi, I'm Mahmoud.")
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("span", { staticClass: "text-xl" }, [
+              _vm._v("freelance web developer")
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("span", { staticClass: "text-2xl leading-snug" }, [
+              _vm._v("Let's create something beautiful together!")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-64 ml-24" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "bg-white rounded-full p-2 flex flex-row justify-between shadow-2xl absolute"
+              },
+              [
+                _c("input", {
+                  staticClass: "rounded-full pl-5 w-64 outline-none",
+                  staticStyle: { "font-family": "Montserrat" },
+                  attrs: { type: "text", placeholder: "Your Email" }
+                }),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "text-center w-40 h-10 btn-hover color-2 p-1 z-10"
+                  },
+                  [_vm._v("Contact Me")]
+                )
+              ]
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "w-screen h-screen" }, [
+        _c("div", { staticClass: "wrap" }, [
+          _c("div", { staticClass: "bg-gray-rect" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "bg-green-rect" }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "office",
+            attrs: { draggable: "false", src: "public/img/office.png" }
+          })
+        ])
+      ])
     ])
   }
 ]
@@ -12989,7 +13146,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_mah_header_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/mah-header.vue */ "./resources/js/components/mah-header.vue");
 /* harmony import */ var _components_articles_sec_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/articles-sec.vue */ "./resources/js/components/articles-sec.vue");
 /* harmony import */ var _components_projects_sec_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/projects-sec.vue */ "./resources/js/components/projects-sec.vue");
-/* harmony import */ var _components_mah_footer_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/mah-footer.vue */ "./resources/js/components/mah-footer.vue");
+/* harmony import */ var _components_mah_footer_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/mah-footer.vue */ "./resources/js/components/mah-footer.vue");
 /**
 * First we will load all of this project's JavaScript dependencies which
 * includes Vue and other libraries. It is a great starting point when
@@ -13011,7 +13168,7 @@ Vue.component('articles-sec', _components_articles_sec_vue__WEBPACK_IMPORTED_MOD
 
 Vue.component('projects-sec', _components_projects_sec_vue__WEBPACK_IMPORTED_MODULE_3__["default"]);
 
-Vue.component('mah-footer', _components_mah_footer_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
+Vue.component('mah-footer', _components_mah_footer_vue__WEBPACK_IMPORTED_MODULE_4__["default"]);
 var app = new Vue({
   el: '#app',
   data: {},
