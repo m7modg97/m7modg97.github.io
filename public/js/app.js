@@ -872,7 +872,11 @@ var staticRenderFns = [
           _c("div", { staticClass: "flex flex-row mt-8 ml-10" }, [
             _c("img", {
               staticClass: "logo",
-              attrs: { src: "public/img/3alam.png", draggable: "false" }
+              attrs: {
+                src: "public/img/3alam.png",
+                draggable: "false",
+                alt: "MD logo"
+              }
             }),
             _vm._v(" "),
             _c(
@@ -978,7 +982,11 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("img", {
             staticClass: "office",
-            attrs: { draggable: "false", src: "public/img/office.png" }
+            attrs: {
+              draggable: "false",
+              alt: "Office",
+              src: "public/img/office.png"
+            }
           })
         ])
       ])
