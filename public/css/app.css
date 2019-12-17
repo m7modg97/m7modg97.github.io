@@ -11535,6 +11535,21 @@ body {
   background-image: linear-gradient(to right, #fb8406, #fcb00c, #fcb00c, #fb8406);
 }
 
+.text-7xl {
+  font-size: 8rem;
+}
+
+.mont {
+  font-family: Montserrat;
+}
+
+.article {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 173, 5, 0.93)), to(#FC8404));
+  background: linear-gradient(180deg, rgba(252, 173, 5, 0.93) 0%, #FC8404 100%);
+  border: 4px solid #FFEFD8;
+  border-radius: 10px;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
