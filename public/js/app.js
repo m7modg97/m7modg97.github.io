@@ -1222,7 +1222,7 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "flex flex-col w-2/5 justify-between h-screen select-none shadow-l"
+            "flex flex-col w-2/5 justify-center h-screen select-none shadow-l"
         },
         [
           _c("div", { staticClass: "ml-24 mt-56 text-header leading-none" }, [
@@ -1247,7 +1247,7 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "mb-64 ml-24" }, [
+          _c("div", { staticClass: "mb-64 ml-24 mt-10" }, [
             _c(
               "div",
               {
