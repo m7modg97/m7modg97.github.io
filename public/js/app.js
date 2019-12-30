@@ -929,13 +929,10 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { width: "20%" } }, [
+  return _c("div", { staticStyle: { width: "255px", old: "20%" } }, [
     _c(
       "div",
-      {
-        staticClass: "flex flex-col article rounded pl-4 select-none",
-        staticStyle: { height: "90%" }
-      },
+      { staticClass: "flex flex-col article rounded pl-4 select-none" },
       [
         _vm._m(0),
         _vm._v(" "),
@@ -977,9 +974,8 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass:
-          "rounded-full h-24 w-24 flex items-center justify-center mt-6",
-        staticStyle: { background: "#FCB93C" }
+        staticClass: "rounded-full  flex items-center justify-center mt-6",
+        staticStyle: { background: "#FCB93C", width: "90px", height: "90px" }
       },
       [_c("span", { staticClass: "fas fa-moon text-white text-4xl" })]
     )
@@ -1013,7 +1009,7 @@ var render = function() {
       _c(
         "div",
         {
-          staticClass: "flex flex-row items-center justify-around",
+          staticClass: "flex flex-row items-center justify-between pl-12 pr-12",
           staticStyle: { height: "60%" }
         },
         [
