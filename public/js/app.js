@@ -1318,10 +1318,7 @@ var render = function() {
   return _c("div", { staticStyle: { width: "20%" } }, [
     _c(
       "div",
-      {
-        staticClass: "flex flex-col article rounded pl-4 select-none",
-        staticStyle: { height: "90%" }
-      },
+      { staticClass: "flex flex-col article rounded pl-4 select-none" },
       [
         _vm._m(0),
         _vm._v(" "),

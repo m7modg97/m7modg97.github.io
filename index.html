@@ -6,10 +6,25 @@
     <link rel="stylesheet" href="public/css/app.css">
     <link rel="stylesheet" href="public/css/fontawesome/css/all.min.css">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        .body-wrap {
+            
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .boxed-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            box-shadow: 0 16px 48px #e7ebf6;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="app">
+    <div class="body-wrap boxed-container" id="app">
         <div class="flex flex-col">
             <mah-header></mah-header>
             <articles-sec></articles-sec>
