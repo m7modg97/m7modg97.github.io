@@ -1003,7 +1003,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "flex" }, [
-    _c("div", { staticClass: "flex flex-col w-full h-screen " }, [
+    _c("div", { staticClass: "flex flex-col w-full h-full " }, [
       _vm._m(0),
       _vm._v(" "),
       _c(
@@ -1124,14 +1124,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "flex" }, [
+    return _c("div", { staticClass: "flex h-full" }, [
       _c("div", {
         staticClass:
-          "flex flex-col w-1/2 justify-between bg-black h-screen select-none shadow-l",
+          "flex flex-col w-1/2 justify-between bg-black h-full select-none shadow-l",
         staticStyle: { "z-index": "60" }
       }),
       _vm._v(" "),
-      _c("div", { staticClass: "w-1/2 bg-orange-300 h-screen" })
+      _c("div", { staticClass: "w-1/2 bg-orange-300 h-full" })
     ])
   }
 ]
@@ -1218,7 +1218,7 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "flex flex-col w-2/5 justify-center h-screen select-none shadow-l"
+            "flex flex-col w-2/5 justify-center h-full select-none shadow-l"
         },
         [
           _c("div", { staticClass: "ml-24 mt-56 text-header leading-none" }, [
@@ -1271,7 +1271,7 @@ var staticRenderFns = [
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "w-screen h-screen" }, [
+      _c("div", { staticClass: "w-screen h-full" }, [
         _c("div", { staticClass: "wrap" }, [
           _c("div", { staticClass: "bg-gray-rect" }),
           _vm._v(" "),
@@ -1386,7 +1386,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "flex pt-32" }, [
-    _c("div", { staticClass: "flex flex-col w-full h-screen " }, [
+    _c("div", { staticClass: "flex flex-col w-full h-full " }, [
       _vm._m(0),
       _vm._v(" "),
       _c(
