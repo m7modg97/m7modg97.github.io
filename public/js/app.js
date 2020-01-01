@@ -229,6 +229,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mah-footer",
   mounted: function mounted() {
@@ -929,7 +967,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { width: "255px", old: "20%" } }, [
+  return _c("div", { staticStyle: { width: "255px" } }, [
     _c(
       "div",
       { staticClass: "flex flex-col article rounded pl-4 select-none" },
@@ -974,7 +1012,7 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass: "rounded-full  flex items-center justify-center mt-6",
+        staticClass: "rounded-full flex items-center justify-center mt-6",
         staticStyle: { background: "#FCB93C", width: "90px", height: "90px" }
       },
       [_c("span", { staticClass: "fas fa-moon text-white text-4xl" })]
@@ -1009,7 +1047,8 @@ var render = function() {
       _c(
         "div",
         {
-          staticClass: "flex flex-row items-center justify-between pl-12 pr-12",
+          staticClass:
+            "flex flex-row items-center justify-between pl-12 pr-12 pt-24",
           staticStyle: { height: "60%" }
         },
         [
@@ -1125,13 +1164,83 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "flex h-full" }, [
-      _c("div", {
-        staticClass:
-          "flex flex-col w-1/2 justify-between bg-black h-full select-none shadow-l",
-        staticStyle: { "z-index": "60" }
-      }),
+      _c(
+        "div",
+        {
+          staticClass:
+            "flex flex-col w-1/2 justify-end select-none shadow-l self-center"
+        },
+        [
+          _c("div", { staticClass: "flex pl-10 justify-between" }, [
+            _c(
+              "div",
+              { staticClass: "bg-white rounded-full p-3 contact-element " },
+              [
+                _c("input", {
+                  staticClass: "rounded-full pl-5 outline-none w-2/3",
+                  staticStyle: { "font-family": "Montserrat" },
+                  attrs: { type: "text", placeholder: "Name" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "bg-white rounded-full p-3 contact-element" },
+              [
+                _c("input", {
+                  staticClass: "rounded-full pl-5 outline-none w-2/3",
+                  staticStyle: { "font-family": "Montserrat" },
+                  attrs: { type: "text", placeholder: "Email" }
+                })
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex justify-start pl-10  pt-5" }, [
+            _c("textarea", {
+              staticClass:
+                "bg-white rounded-lg contact-element p-5 outline-none w-full resize-none",
+              staticStyle: { "font-family": "Montserrat" },
+              attrs: { rows: "10", placeholder: "Your Message ..." }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex  justify-end pt-5" }, [
+            _c(
+              "button",
+              {
+                staticClass:
+                  "text-center w-40 h-10 btn-hover color-2 p-1 fas fa-paper-plane  "
+              },
+              [
+                _c(
+                  "span",
+                  { staticStyle: { "font-family": "MontserratAlt" } },
+                  [_vm._v(" Send")]
+                )
+              ]
+            )
+          ])
+        ]
+      ),
       _vm._v(" "),
-      _c("div", { staticClass: "w-1/2 bg-orange-300 h-full" })
+      _c("div", { staticClass: "w-1/2 h-full" }, [
+        _c("div", { staticClass: "wrap" }, [
+          _c("div", { staticClass: "bg-green-rect-footer" }, [
+            _c("div", { staticClass: " footer-text pt-32 pl-24" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "flex justify-center items-center shadow-md bg-white rounded social-box"
+                },
+                [_c("span", { staticClass: "fab fa-facebook-f" })]
+              )
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -1311,7 +1420,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { width: "20%" } }, [
+  return _c("div", { staticStyle: { width: "255px" } }, [
     _c(
       "div",
       { staticClass: "flex flex-col article rounded pl-4 select-none" },
@@ -1356,9 +1465,8 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass:
-          "rounded-full h-24 w-24 flex items-center justify-center mt-6",
-        staticStyle: { background: "#FCB93C" }
+        staticClass: "rounded-full flex items-center justify-center mt-6",
+        staticStyle: { background: "#FCB93C", width: "90px", height: "90px" }
       },
       [_c("span", { staticClass: "fas fa-moon text-white text-4xl" })]
     )
@@ -1392,7 +1500,8 @@ var render = function() {
       _c(
         "div",
         {
-          staticClass: "flex flex-row items-center justify-around",
+          staticClass:
+            "flex flex-row items-center justify-between pl-12 pr-12 pt-24",
           staticStyle: { height: "60%" }
         },
         [
