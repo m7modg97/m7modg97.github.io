@@ -263,10 +263,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mah-footer",
   mounted: function mounted() {
@@ -1172,29 +1168,19 @@ var staticRenderFns = [
         },
         [
           _c("div", { staticClass: "flex pl-10 justify-between" }, [
-            _c(
-              "div",
-              { staticClass: "bg-white rounded-full p-3 contact-element " },
-              [
-                _c("input", {
-                  staticClass: "rounded-full pl-5 outline-none w-2/3",
-                  staticStyle: { "font-family": "Montserrat" },
-                  attrs: { type: "text", placeholder: "Name" }
-                })
-              ]
-            ),
+            _c("input", {
+              staticClass:
+                "bg-white rounded-full p-3  pl-5 outline-none  contact-element",
+              staticStyle: { "font-family": "Montserrat" },
+              attrs: { type: "text", placeholder: "Name" }
+            }),
             _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "bg-white rounded-full p-3 contact-element" },
-              [
-                _c("input", {
-                  staticClass: "rounded-full pl-5 outline-none w-2/3",
-                  staticStyle: { "font-family": "Montserrat" },
-                  attrs: { type: "text", placeholder: "Email" }
-                })
-              ]
-            )
+            _c("input", {
+              staticClass:
+                "bg-white rounded-full p-3  pl-5 outline-none  contact-element",
+              staticStyle: { "font-family": "Montserrat" },
+              attrs: { type: "text", placeholder: "Email" }
+            })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "flex justify-start pl-10  pt-5" }, [
