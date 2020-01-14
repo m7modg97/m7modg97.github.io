@@ -1051,7 +1051,11 @@ var render = function() {
           _c(
             "mah-article",
             {
-              attrs: { header: "Customize VS code", link: "https://mahmod.dev" }
+              attrs: {
+                header: "Customize VS code",
+                link:
+                  "https://3alam.pro/m7modg97/articles/vs-code-customization"
+              }
             },
             [
               _vm._v(
@@ -1060,41 +1064,23 @@ var render = function() {
             ]
           ),
           _vm._v(" "),
-          _c(
-            "mah-article",
-            {
-              attrs: { header: "Customize VS code", link: "https://mahmod.dev" }
-            },
-            [
-              _vm._v(
-                "\n        In this article, I review some of the features of Visual Code and some of the Plugins and themes that I use.\n      "
-              )
-            ]
-          ),
+          _c("mah-article", { attrs: { header: "Soon ...", link: "#" } }, [
+            _vm._v(
+              "\n        In this article, I review some of the features of Visual Code and some of the Plugins and themes that I use.\n      "
+            )
+          ]),
           _vm._v(" "),
-          _c(
-            "mah-article",
-            {
-              attrs: { header: "Customize VS code", link: "https://mahmod.dev" }
-            },
-            [
-              _vm._v(
-                "\n        In this article, I review some of the features of Visual Code and some of the Plugins and themes that I use.\n      "
-              )
-            ]
-          ),
+          _c("mah-article", { attrs: { header: "Soon ...", link: "#" } }, [
+            _vm._v(
+              "\n        In this article, I review some of the features of Visual Code and some of the Plugins and themes that I use.\n      "
+            )
+          ]),
           _vm._v(" "),
-          _c(
-            "mah-article",
-            {
-              attrs: { header: "Customize VS code", link: "https://mahmod.dev" }
-            },
-            [
-              _vm._v(
-                "\n        In this article, I review some of the features of Visual Code and some of the Plugins and themes that I use.\n      "
-              )
-            ]
-          )
+          _c("mah-article", { attrs: { header: "Soon ...", link: "#" } }, [
+            _vm._v(
+              "\n        In this article, I review some of the features of Visual Code and some of the Plugins and themes that I use.\n      "
+            )
+          ])
         ],
         1
       )
@@ -1217,11 +1203,13 @@ var staticRenderFns = [
             _c("div", { staticClass: " footer-text pt-32 pl-24" }, [
               _c(
                 "div",
-                {
-                  staticClass:
-                    "flex justify-center items-center shadow-md bg-white rounded social-box"
-                },
-                [_c("span", { staticClass: "fab fa-facebook-f" })]
+                { staticClass: "flex", staticStyle: { color: "#FFF" } },
+                [
+                  _c("h2", [
+                    _c("span", { staticClass: "fas fa-link" }),
+                    _vm._v(" Social Media")
+                  ])
+                ]
               )
             ])
           ])
