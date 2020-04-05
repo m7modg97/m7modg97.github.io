@@ -211,6 +211,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mah-footer"
 });
@@ -4567,61 +4569,85 @@ var staticRenderFns = [
           },
           [
             _c(
-              "div",
+              "form",
               {
-                staticClass:
-                  "flex pl-10 justify-between  sm:flex-row flex-col pr-10 sm:pr-0"
+                attrs: {
+                  action: "https://formspree.io/xlewjera",
+                  method: "POST",
+                  target: "_blank"
+                }
               },
               [
-                _c("input", {
-                  staticClass:
-                    "bg-white rounded-full p-3  pl-5 outline-none  contact-element",
-                  staticStyle: { "font-family": "Montserrat" },
-                  attrs: { type: "text", placeholder: "Name" }
-                }),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass:
-                    "bg-white rounded-full p-3 sm:mt-0 mt-5 pl-5 outline-none  contact-element",
-                  staticStyle: { "font-family": "Montserrat" },
-                  attrs: { type: "text", placeholder: "Email" }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "flex justify-start pl-10  pt-5 pr-10 sm:pr-0" },
-              [
-                _c("textarea", {
-                  staticClass:
-                    "bg-white rounded-lg contact-element p-5 outline-none w-full resize-none",
-                  staticStyle: { "font-family": "Montserrat" },
-                  attrs: { rows: "10", placeholder: "Your Message ..." }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "flex  justify-end pt-5 pr-10 sm:pr-0 pl-10" },
-              [
                 _c(
-                  "button",
+                  "div",
                   {
                     staticClass:
-                      "text-center  h-10 btn-hover color-2 p-1 fas fa-paper-plane sm:w-40 w-full"
+                      "flex pl-10 justify-between  sm:flex-row flex-col pr-10 sm:pr-0"
                   },
                   [
+                    _c("input", {
+                      staticClass:
+                        "bg-white rounded-full p-3  pl-5 outline-none  contact-element",
+                      staticStyle: { "font-family": "Montserrat" },
+                      attrs: { type: "text", name: "name", placeholder: "Name" }
+                    }),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass:
+                        "bg-white rounded-full p-3 sm:mt-0 mt-5 pl-5 outline-none  contact-element",
+                      staticStyle: { "font-family": "Montserrat" },
+                      attrs: {
+                        type: "email",
+                        name: "_replyto",
+                        placeholder: "Email"
+                      }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "flex justify-start pl-10  pt-5 pr-10 sm:pr-0"
+                  },
+                  [
+                    _c("textarea", {
+                      staticClass:
+                        "bg-white rounded-lg contact-element p-5 outline-none w-full resize-none",
+                      staticStyle: { "font-family": "Montserrat" },
+                      attrs: {
+                        name: "message",
+                        rows: "10",
+                        placeholder: "Your Message ..."
+                      }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "flex  justify-end pt-5 pr-10 sm:pr-0 pl-10" },
+                  [
                     _c(
-                      "span",
-                      { staticStyle: { "font-family": "MontserratAlt" } },
-                      [_vm._v(" Send")]
+                      "button",
+                      {
+                        staticClass:
+                          "text-center  h-10 btn-hover color-2 p-1 fas fa-paper-plane sm:w-40 w-full",
+                        attrs: { type: "submit" }
+                      },
+                      [
+                        _c(
+                          "span",
+                          { staticStyle: { "font-family": "MontserratAlt" } },
+                          [_vm._v(" Send")]
+                        )
+                      ]
                     )
                   ]
                 )
               ]
-            )
+            ),
+            _vm._v(">\n  ")
           ]
         ),
         _vm._v(" "),
