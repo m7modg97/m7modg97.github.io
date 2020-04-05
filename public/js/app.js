@@ -300,14 +300,10 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue2_smooth_scroll__WEBPACK_IMPOR
         document.body.style = "background-color: #1b1c1d";
         document.getElementById("logo_text").style = "color:#b3c6de";
         document.getElementById("text_header").style = "color:#b3c6de";
-        document.getElementById("project_desc").style = "color:#b3c6de";
-        document.getElementById("article_desc").style = "color:#b3c6de";
       } else {
         document.body.style = "background-color: #faf7fc";
         document.getElementById("logo_text").style = "color:#252d54";
         document.getElementById("text_header").style = "color:#252D54";
-        document.getElementById("project_desc").style = "color:#252D54";
-        document.getElementById("article_desc").style = "color:#252D54";
       }
     }
   }
@@ -4372,14 +4368,10 @@ var staticRenderFns = [
         _c(
           "span",
           {
-            staticClass: "text-center mont sm:w-64 w-full",
-            attrs: { id: "article_desc" }
+            staticClass: "text-center mont text-6xl",
+            staticStyle: { color: "#C4BBBB", "font-weight": "bold" }
           },
-          [
-            _vm._v(
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-            )
-          ]
+          [_vm._v("Articles")]
         )
       ]
     )
@@ -4961,14 +4953,10 @@ var staticRenderFns = [
         _c(
           "span",
           {
-            staticClass: "text-center mont sm:w-64 w-full",
-            attrs: { id: "project_desc" }
+            staticClass: "text-center mont text-6xl",
+            staticStyle: { color: "#C4BBBB", "font-weight": "bold" }
           },
-          [
-            _vm._v(
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-            )
-          ]
+          [_vm._v("Projects")]
         )
       ]
     )
