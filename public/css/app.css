@@ -11523,6 +11523,10 @@ body {
   box-shadow: 0px 27px 45px rgba(0, 0, 0, 0.1);
 }
 
+.width-20 {
+  width: 20%;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

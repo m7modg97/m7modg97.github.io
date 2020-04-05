@@ -174,7 +174,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('mah-article', _article_vue__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -370,7 +369,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _project_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./project.vue */ "./resources/js/components/project.vue");
-//
 //
 //
 //
@@ -975,7 +973,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "flex flex-row items-center justify-between pl-12 pr-12 pt-24",
+            "flex sm:flex-row flex-col items-center justify-between pl-12 pr-12 pt-24",
           staticStyle: { height: "60%" }
         },
         [
@@ -1035,15 +1033,11 @@ var staticRenderFns = [
           staticStyle: { color: "#C4BBBB" }
         }),
         _vm._v(" "),
-        _c(
-          "span",
-          { staticClass: "text-center mont", staticStyle: { width: "20%" } },
-          [
-            _vm._v(
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-            )
-          ]
-        )
+        _c("span", { staticClass: "text-center mont sm:w-64 w-full" }, [
+          _vm._v(
+            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          )
+        ])
       ]
     )
   }
@@ -1085,54 +1079,69 @@ var staticRenderFns = [
           staticStyle: { width: "100%" }
         },
         [
-          _c("div", { staticClass: "flex pl-10 justify-between" }, [
-            _c("input", {
+          _c(
+            "div",
+            {
               staticClass:
-                "bg-white rounded-full p-3  pl-5 outline-none  contact-element",
-              staticStyle: { "font-family": "Montserrat" },
-              attrs: { type: "text", placeholder: "Name" }
-            }),
-            _vm._v(" "),
-            _c("input", {
-              staticClass:
-                "bg-white rounded-full p-3  pl-5 outline-none  contact-element",
-              staticStyle: { "font-family": "Montserrat" },
-              attrs: { type: "text", placeholder: "Email" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "flex justify-start pl-10  pt-5" }, [
-            _c("textarea", {
-              staticClass:
-                "bg-white rounded-lg contact-element p-5 outline-none w-full resize-none",
-              staticStyle: { "font-family": "Montserrat" },
-              attrs: { rows: "10", placeholder: "Your Message ..." }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "flex  justify-end pt-5" }, [
-            _c(
-              "button",
-              {
+                "flex pl-10 justify-between  sm:flex-row flex-col pr-10 sm:pr-0"
+            },
+            [
+              _c("input", {
                 staticClass:
-                  "text-center w-40 h-10 btn-hover color-2 p-1 fas fa-paper-plane  "
-              },
-              [
-                _c(
-                  "span",
-                  { staticStyle: { "font-family": "MontserratAlt" } },
-                  [_vm._v(" Send")]
-                )
-              ]
-            )
-          ])
+                  "bg-white rounded-full p-3  pl-5 outline-none  contact-element",
+                staticStyle: { "font-family": "Montserrat" },
+                attrs: { type: "text", placeholder: "Name" }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                staticClass:
+                  "bg-white rounded-full p-3 sm:mt-0 mt-5 pl-5 outline-none  contact-element",
+                staticStyle: { "font-family": "Montserrat" },
+                attrs: { type: "text", placeholder: "Email" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "flex justify-start pl-10  pt-5 pr-10 sm:pr-0" },
+            [
+              _c("textarea", {
+                staticClass:
+                  "bg-white rounded-lg contact-element p-5 outline-none w-full resize-none",
+                staticStyle: { "font-family": "Montserrat" },
+                attrs: { rows: "10", placeholder: "Your Message ..." }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "flex  justify-end pt-5 pr-10 sm:pr-0 pl-10" },
+            [
+              _c(
+                "button",
+                {
+                  staticClass:
+                    "text-center  h-10 btn-hover color-2 p-1 fas fa-paper-plane sm:w-40 w-full"
+                },
+                [
+                  _c(
+                    "span",
+                    { staticStyle: { "font-family": "MontserratAlt" } },
+                    [_vm._v(" Send")]
+                  )
+                ]
+              )
+            ]
+          )
         ]
       ),
       _vm._v(" "),
       _c(
         "div",
         {
-          staticClass: "flex justify-end items-end",
+          staticClass: "flex justify-end items-end sm:flex hidden",
           staticStyle: { width: "100%" }
         },
         [
@@ -1179,7 +1188,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "flex" }, [
       _c("div", { staticClass: "absolute w-full z-50" }, [
-        _c("nav", { staticClass: "flex justify-between " }, [
+        _c("nav", { staticClass: "flex sm:justify-between justify-center " }, [
           _c("div", { staticClass: "flex flex-row mt-8 ml-10" }, [
             _c("img", {
               staticClass: "logo",
@@ -1201,7 +1210,7 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "category flex flex-row  flex-wrap text-xl pt-8 select-none\t"
+                "category flex flex-row  flex-wrap text-xl pt-8 select-none sm:flex hidden\t"
             },
             [
               _c("div", { staticClass: "pr-10" }, [_vm._v("Article")]),
@@ -1232,7 +1241,7 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "flex flex-col w-2/5 justify-center h-full select-none shadow-l"
+            "flex flex-col justify-center h-full select-none shadow-l sm:w-2/5 w-full"
         },
         [
           _c("div", { staticClass: "ml-24 mt-56 text-header leading-none" }, [
@@ -1262,11 +1271,12 @@ var staticRenderFns = [
               "div",
               {
                 staticClass:
-                  "bg-white rounded-full p-2 flex flex-row justify-between shadow-2xl absolute"
+                  "bg-white rounded-full p-2 flex flex-row justify-between shadow-2xl absolute z-10"
               },
               [
                 _c("input", {
-                  staticClass: "rounded-full pl-5 w-64 outline-none",
+                  staticClass:
+                    "rounded-full pl-5 w-64 outline-none sm:block hidden",
                   staticStyle: { "font-family": "Montserrat" },
                   attrs: { type: "text", placeholder: "Your Email" }
                 }),
@@ -1275,7 +1285,7 @@ var staticRenderFns = [
                   "button",
                   {
                     staticClass:
-                      "text-center w-40 h-10 btn-hover color-2 p-1 z-10"
+                      "text-center sm:w-40 w-full sm:px-1 px-10 h-10 btn-hover color-2 p-1 "
                   },
                   [_vm._v("Contact Me")]
                 )
@@ -1285,17 +1295,21 @@ var staticRenderFns = [
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "w-screen h-full flex justify-end" }, [
-        _c("img", {
-          staticClass: "absolute",
-          staticStyle: { width: "60%" },
-          attrs: {
-            draggable: "false",
-            src: "public/img/header-rect.svg",
-            alt: "Office"
-          }
-        })
-      ])
+      _c(
+        "div",
+        { staticClass: "w-screen h-full flex justify-end sm:flex hidden" },
+        [
+          _c("img", {
+            staticClass: "absolute",
+            staticStyle: { width: "60%" },
+            attrs: {
+              draggable: "false",
+              src: "public/img/header-rect.svg",
+              alt: "Office"
+            }
+          })
+        ]
+      )
     ])
   }
 ]
@@ -1401,7 +1415,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "flex flex-row items-center justify-between pl-12 pr-12 pt-24",
+            "flex sm:flex-row flex-col items-center justify-between pl-12 pr-12 pt-24",
           staticStyle: { height: "60%" }
         },
         [
@@ -1475,15 +1489,11 @@ var staticRenderFns = [
           staticStyle: { color: "#C4BBBB" }
         }),
         _vm._v(" "),
-        _c(
-          "span",
-          { staticClass: "text-center mont", staticStyle: { width: "20%" } },
-          [
-            _vm._v(
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-            )
-          ]
-        )
+        _c("span", { staticClass: "text-center mont sm:w-64 w-full" }, [
+          _vm._v(
+            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          )
+        ])
       ]
     )
   }
