@@ -255,14 +255,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mah-footer",
   mounted: function mounted() {
@@ -281,12 +273,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -1145,12 +1131,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "flex h-full" }, [
+    return _c("div", { staticClass: "flex h-screen" }, [
       _c(
         "div",
         {
           staticClass:
-            "flex flex-col w-1/2 justify-end select-none shadow-l self-center"
+            "flex flex-col justify-end select-none shadow-l self-center",
+          staticStyle: { width: "100%" }
         },
         [
           _c("div", { staticClass: "flex pl-10 justify-between" }, [
@@ -1197,24 +1184,23 @@ var staticRenderFns = [
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "w-1/2 h-full" }, [
-        _c("div", { staticClass: "wrap" }, [
-          _c("div", { staticClass: "bg-green-rect-footer" }, [
-            _c("div", { staticClass: " footer-text pt-32 pl-24" }, [
-              _c(
-                "div",
-                { staticClass: "flex", staticStyle: { color: "#FFF" } },
-                [
-                  _c("h2", [
-                    _c("span", { staticClass: "fas fa-link" }),
-                    _vm._v(" Social Media")
-                  ])
-                ]
-              )
-            ])
-          ])
-        ])
-      ])
+      _c(
+        "div",
+        {
+          staticClass: "flex justify-end items-end",
+          staticStyle: { width: "100%" }
+        },
+        [
+          _c("img", {
+            staticStyle: { width: "80%" },
+            attrs: {
+              draggable: "false",
+              src: "public/img/footer-rect.svg",
+              alt: "Laptop With Hands"
+            }
+          })
+        ]
+      )
     ])
   }
 ]
@@ -1354,21 +1340,16 @@ var staticRenderFns = [
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "w-screen h-full" }, [
-        _c("div", { staticClass: "wrap" }, [
-          _c("div", { staticClass: "bg-gray-rect" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "bg-green-rect" }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "office",
-            attrs: {
-              draggable: "false",
-              alt: "Office",
-              src: "public/img/office.png"
-            }
-          })
-        ])
+      _c("div", { staticClass: "w-screen h-full flex justify-end" }, [
+        _c("img", {
+          staticClass: "absolute",
+          staticStyle: { width: "60%" },
+          attrs: {
+            draggable: "false",
+            src: "public/img/header-rect.svg",
+            alt: "Office"
+          }
+        })
       ])
     ])
   }
