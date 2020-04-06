@@ -4735,6 +4735,7 @@ var staticRenderFns = [
                     _c(
                       "a",
                       {
+                        staticClass: "hover:text-gray-600",
                         attrs: {
                           href: "https://twitter.com/m7modg97",
                           target: "_blank"
@@ -4746,6 +4747,7 @@ var staticRenderFns = [
                     _c(
                       "a",
                       {
+                        staticClass: "hover:text-gray-600",
                         attrs: {
                           href:
                             "https://www.linkedin.com/in/mahmoud-al-omoush-4b7b48138",
@@ -4758,6 +4760,7 @@ var staticRenderFns = [
                     _c(
                       "a",
                       {
+                        staticClass: "hover:text-gray-600",
                         attrs: {
                           href: "https://github.com/m7modg97",
                           target: "_blank"
@@ -4769,6 +4772,7 @@ var staticRenderFns = [
                     _c(
                       "a",
                       {
+                        staticClass: "hover:text-gray-600",
                         attrs: {
                           href: "https://facebook.com/m7modg97",
                           target: "_blank"
@@ -4780,6 +4784,7 @@ var staticRenderFns = [
                     _c(
                       "a",
                       {
+                        staticClass: "hover:text-gray-600",
                         attrs: {
                           href:
                             "https://api.whatsapp.com/send?phone=00962799833207",
@@ -4792,6 +4797,7 @@ var staticRenderFns = [
                     _c(
                       "a",
                       {
+                        staticClass: "hover:text-gray-600",
                         attrs: {
                           href: "mailto:m7modg97@gmail.com",
                           target: "_blank"
