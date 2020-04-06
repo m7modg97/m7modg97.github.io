@@ -4728,7 +4728,7 @@ var staticRenderFns = [
                 _c(
                   "div",
                   {
-                    staticClass: "flex justify-center pt-5 text-2xl",
+                    staticClass: "flex justify-center pt-5 text-2xl flex-wrap",
                     staticStyle: { color: "#c4bbbb" }
                   },
                   [
