@@ -4860,7 +4860,7 @@ var render = function() {
         "nav",
         {
           staticClass:
-            "fixed flex w-full sm:justify-between justify-center m-auto top-0 animated",
+            "fixed flex w-full sm:justify-between justify-center  top-0",
           class: { scrolled: !_vm.view.atTopOfPage }
         },
         [
