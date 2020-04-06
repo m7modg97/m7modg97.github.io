@@ -213,6 +213,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mah-footer"
 });
@@ -4713,6 +4721,83 @@ var staticRenderFns = [
                           [_vm._v(" Send")]
                         )
                       ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "flex justify-center pt-5 text-2xl",
+                    staticStyle: { color: "#c4bbbb" }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://twitter.com/m7modg97",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("span", { staticClass: "fab fa-twitter  mx-5" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://www.linkedin.com/in/mahmoud-al-omoush-4b7b48138",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("span", { staticClass: "fab fa-linkedin  mx-5" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://github.com/m7modg97",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("span", { staticClass: "fab fa-github  mx-5" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://facebook.com/m7modg97",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("span", { staticClass: "fab fa-facebook  mx-5" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://api.whatsapp.com/send?phone=00962799833207",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("span", { staticClass: "fab fa-whatsapp  mx-5" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "mailto:m7modg97@gmail.com",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("span", { staticClass: "fas fa-envelope  mx-5" })]
                     )
                   ]
                 )
